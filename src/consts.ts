@@ -1,0 +1,1 @@
+export const SECRET_COMBINATION_PAIRS_COUNT = 3
