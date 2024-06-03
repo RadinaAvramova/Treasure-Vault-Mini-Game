@@ -1,21 +1,6 @@
-# Treasure-Vault-Mini-Game
+# Vault-treasure-mini-game
+This is a small game where the player has to check the random combination of numbers and spin directions in the console. Then, by clicking on the left or right side of the handle, rotate it clockwise or counterclockwise to open the safe and win after the right combination. 5 seconds after opening the safe, the game restarts and a new code is generated in the console.
 
-## Overview
-Welcome to the Vault Mini Game, an engaging and challenging puzzle game where players need to unlock a vault by turning the handle in the correct direction and the right number of times. The game is built using PIXI.js, a powerful and feature-rich 2D rendering engine, and GSAP, a robust animation library, ensuring a smooth and visually appealing experience.
-
-## Features
-Randomly generated secret combinations: Each new game offers a fresh challenge with a unique combination to unlock the vault.
-Intuitive user interactions: Players can easily rotate the vault handle by clicking or tapping on either side of the handle.
-Engaging animations: The game features smooth handle rotations, blinking lights when the vault is unlocked, and a spinning handle animation when the game resets.
-Responsive design: The game automatically adjusts its size and layout according to the browser window size, ensuring an optimal user experience across various devices.
-## Gameplay
-The objective of the game is to unlock the vault by rotating the handle according to a secret combination. The combination consists of three steps, each requiring the player to turn the handle a specific number of times (1-9) in a certain direction (clockwise or counterclockwise).
-
-Players can rotate the handle by clicking or tapping on either side of it. The game provides immediate feedback on whether the current move is correct or not. If the player makes a wrong move, the game resets, and the handle spins wildly before generating a new combination.
-
-The game is won when the player successfully performs all three steps of the secret combination. Upon winning, the vault door opens, and the lights start blinking to celebrate the victory. The game will restart after 5 seconds.
-
-## Installation & Running
-To play the game, simply clone the repository and serve the files using a local server like http-server or by using the Demo link above.
-
-### Enjoy the challenge, and good luck cracking the vault!
+# Installation
+To use this project, make sure you have Vite, PixiJS and GSAP installed. Then, run the following command to start the game:
+  npm run dev
